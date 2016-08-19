@@ -34,6 +34,8 @@ public class Constants {
 
     public static final String CLIENT_ID = "clientId";
 
+    public static final String CLIENT = "Client";
+
     public static final String LOAN_ACCOUNT_NUMBER = "loanAccountNumber";
 
     public static final String LOAN_PAYMENT_TYPE_OPTIONS = "LoanPaymentTypeOptions";
@@ -41,6 +43,8 @@ public class Constants {
     public static final String LOAN_SUMMARY = "loanWithAssociation";
 
     public static final String SAVINGS_ACCOUNT_NUMBER = "savingsAccountNumber";
+
+    public static final String SAVINGS_ACCOUNT_ID = "savingsAccountId";
 
     public static final String SAVINGS_ACCOUNT_TYPE = "savingsAccountType";
 
@@ -70,6 +74,8 @@ public class Constants {
 
     public static final String LOCALE = "locale";
 
+    public static final String TRANSACTIONS = "transactions";
+
 
     /**
      * Constants to identify which Data Tables have to be shown
@@ -85,6 +91,10 @@ public class Constants {
     public static final String DATA_TABLE_LOAN_NAME = "More Loan Info";
     public static final String DATA_TABLE_SAVINGS_ACCOUNTS_NAME = "More Savings Account Info";
 
+
+    public static final String DATA_TABLE_NAME_CLIENT = "m_client";
+    public static final String DATA_TABLE_NAME_SAVINGS = "m_savings_account";
+    public static final String DATA_TABLE_NAME_LOANS = "m_loan";
 
     /**
      * User Logged In Status
